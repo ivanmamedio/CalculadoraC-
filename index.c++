@@ -31,8 +31,15 @@ int main() {
             break;
         case 4:
             if (num2 != 0) {
-                std::
+                std::cout <<"Resultado: " << num1 / num2 << std::endl;
+            } else {
+                std::cout <<"Erro: Divisão por zero!" << std::endl;
             }
+            break;
+        default:
+            std::cout << "Opção Inválida!" << std::endl;
 
+            }
+        return 0;
     }
-}
+}   
